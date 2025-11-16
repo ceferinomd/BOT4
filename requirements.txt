@@ -1,0 +1,14 @@
+# PPFP Bot v2.2.0 - Dependencias Python
+
+# === Core ===
+python-dotenv==1.0.0
+numpy==1.24.3
+requests==2.31.0
+
+# === Solana ===
+solders==0.18.1
+solana==0.30.2
+base58==2.1.1
+
+# === SPL Token ===
+spl-token==0.2.0
