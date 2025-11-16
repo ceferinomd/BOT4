@@ -1,22 +1,18 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+# ============================================
+# PPFP BOT v2.2.0 - Configuración
+# ============================================
+
+# === SOLANA ===
+SOLANA_PRIVATE_KEY=tu_clave_privada_aqui_base58
+RPC_URL=https://cool-ancient-card.solana-mainnet.quiknode.pro/25448e7a44e16462b1b7ea37412a435916d1bc98/
+
+# === TRADING ===
+LEVERAGE=20
+INITIAL_CAPITAL_SIM=23.85
+
+# === LÍMITES ===
+DAILY_LIMIT=2000
+TRADE_INTERVAL=60
+
+# === MODO ===
+# SIMULATION_MODE se controla en el código
